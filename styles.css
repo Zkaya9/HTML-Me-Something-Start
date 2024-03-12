@@ -1,1 +1,68 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+  }
+
+  #mainHeading {
+    color: red;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+
+  #header-box {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 20px; 
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin-left: auto;
+  }
+  
+  #header-box img {
+    margin-bottom: 10px; /* Add some space between the image and text */
+  }
+  
+  #header-box h3,
+  #header-box h1,
+  #header-box h2 {
+    margin: 5px 0; /* Add some space between the headings */
+  }
+  
+
+  .funParagraph {
+    font-size: 18px;
+    line-height: 1.5;
+    color: green;
+  }
+
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  main {
+    margin-top: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    color: #999;
+    margin-top: 40px;
+  }
+
+  #about-me {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+  }
+
+  #experience-box, #education-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+  }v
